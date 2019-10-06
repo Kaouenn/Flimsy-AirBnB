@@ -4,7 +4,7 @@ import { Button, StyleSheet, AsyncStorage, View } from "react-native";
 class SettingsScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
-      tabBarLabel: "Paramètres"
+      tabBarLabel: "Sign Out"
     };
   };
 

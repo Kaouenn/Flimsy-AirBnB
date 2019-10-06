@@ -4,6 +4,7 @@ import axios from "axios";
 import {
   TextInput,
   Text,
+  Image,
   TouchableOpacity,
   StyleSheet,
   AsyncStorage,
@@ -25,13 +26,19 @@ class SignInScreen extends React.Component {
     return (
       <KeyboardAvoidingView style={styles.container} behavior="padding" enabled>
         <View style={styles.container}>
-          <Ionicons
-            name="ios-home"
-            size={90}
-            color="white"
-            style={{ marginTop: 170, marginBottom: 20 }}
+          <Image
+            style={{
+              width: 230,
+              height: 230,
+              marginTop: 120,
+              marginBottom: -30
+            }}
+            source={{
+              uri:
+                "http://fr.mhec.fr/wp-content/uploads/sites/2/2018/11/airbnb-logo.png"
+            }}
           />
-          <Text style={styles.welcome}>WELCOME</Text>
+
           <View
             style={{
               width: 300
@@ -44,7 +51,7 @@ class SignInScreen extends React.Component {
                 borderBottomColor: "white",
                 borderBottomWidth: 1,
                 marginBottom: 30,
-                color: "white",
+                color: "#ff595e",
                 marginTop: 40,
                 fontSize: 20
               }}
@@ -60,7 +67,7 @@ class SignInScreen extends React.Component {
                 width: "auto",
                 borderBottomColor: "white",
                 borderBottomWidth: 1,
-                color: "white",
+                color: "#ff595e",
                 marginVertical: 30,
                 fontSize: 20
               }}
@@ -77,7 +84,7 @@ class SignInScreen extends React.Component {
               style={styles.loginButton}
             >
               <Text
-                style={{ textAlign: "center", color: "#ff595e", fontSize: 20 }}
+                style={{ textAlign: "center", color: "white", fontSize: 20 }}
               >
                 Login
               </Text>
@@ -106,19 +113,13 @@ class SignInScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#ff595e",
+    backgroundColor: "#f9f9f9",
     flex: 1,
     alignItems: "center",
     justifyContent: "flex-start"
   },
-  welcome: {
-    color: "white",
-    fontSize: 50,
-    textTransform: "capitalize",
-    fontWeight: "100"
-  },
   loginButton: {
-    backgroundColor: "white",
+    backgroundColor: "#ff595e",
     height: 60,
     width: 120,
     justifyContent: "center",

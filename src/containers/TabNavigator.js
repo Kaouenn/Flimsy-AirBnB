@@ -17,11 +17,11 @@ const TabNavigator = createBottomTabNavigator(
 
         switch (routeName) {
           case "Home":
-            iconName = "ios-home";
+            iconName = "ios-grid";
 
             break;
           case "Settings":
-            iconName = "ios-settings";
+            iconName = "ios-exit";
 
             break;
           default:
@@ -47,7 +47,7 @@ TabNavigator.navigationOptions = ({ navigation }) => {
       headerTitle = "MonAirbnb";
       break;
     case "Settings":
-      headerTitle = "Paramètres";
+      headerTitle = "Sign Out";
       break;
     default:
       headerTitle = routeName;
