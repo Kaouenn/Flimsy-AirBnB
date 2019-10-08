@@ -1,4 +1,4 @@
-![Overview](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570532535/Flimsy%20AirBnB/flimsy_intro_pminja.png)
+![Overview](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570532624/Flimsy%20AirBnB/flimsy-airbnb-introduction_r5kome.png)
 
 # Flimsy AirBnB
 
