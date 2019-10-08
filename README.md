@@ -2,7 +2,7 @@
 
 # Flimsy AirBnB
 
-> A simple Budget Web App for one or many users.
+> My first mobil app with React Native 
 
 ## Table of contents
 
@@ -16,38 +16,38 @@
 
 ## General info
 
-Project done during training to learn about some basic React.js concepts such as fetching data in `componentDidMount()`,state management, components focused programming...
+Project done during training to learn about some basic React Native concepts ...
 
 ## Technologies
 
-- axios - version 0.19.0
-- React.js - version 16.8.6
+- Expo - version 34.0.1
+- Axios - version 0.19.0
+- React Native - https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz
+- react-native-maps - version 0.25.0
+- react-native-swiper - version 1.5.14
+- react-navigation - version 3.11.1
 
 ## Setup
 
 Clone the repository then install the dependencies using `npm install`.
 
-Make sure nothing is running on your port 3000.
+Use `npm start`to launch Expo on your browser.
 
-Use `npm start`to launch the website.
+Run on ios / android device 
 
-You can also visit the demo website :
-
-https://budget-web-app.herokuapp.com/
 
 ## Features
 
-- A Single Form Component appears when run the web app without expenses.
+- First step Login 🔓
+![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/login_ci6rs1.png)
 
-- Firstly : You have to write the name of the User 👨
-- Secondly : Inform the expense you want to add ⌨︎
-- Finally : Inform the expense's price ﹩
 
-![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570536859/Flimsy%20AirBnB/pic2_bis_bnn9es.png)
+- Secondly : Map the "AirBnB API" to display the apartments 🏠
+![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/homepage_acwnhn.png)
 
-- Three Components appears when you add the first expense, you can integrate more than one pers in your form 👍
 
-![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1569942278/multipe-expenses_gkdykc)
+- Finally : Choose one apratment to see the informations/Pictures/Google map/Reviews 🔍
+![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541862/Flimsy%20AirBnB/infos_av4qrr.png)
 
 ## Status
 
