@@ -44,7 +44,7 @@ TabNavigator.navigationOptions = ({ navigation }) => {
 
   switch (routeName) {
     case "Home":
-      headerTitle = "MonAirbnb";
+      headerTitle = "Flimsy Airbnb";
       break;
     case "Settings":
       headerTitle = "Sign Out";

@@ -2,7 +2,8 @@
 
 # Flimsy AirBnB
 
-> My first mobil app with React Native 
+> My first mobil app with React Native
+
 
 ## Table of contents
 
@@ -30,24 +31,21 @@ Project done during training to learn about some basic React Native concepts ...
 ## Setup
 
 Clone the repository then install the dependencies using `npm install`.
-
 Use `npm start`to launch Expo on your browser.
-
-Run on ios / android device 
-
+Run on ios / android device
 
 ## Features
 
+
 - First step Login 🔓
-![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/login_ci6rs1.png)
+  ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/login_ci6rs1.png)
 
-
-- Secondly : Map the "AirBnB API" to display the apartments 🏠
-![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/homepage_acwnhn.png)
-
+* Secondly : Map the "AirBnB API" to display the apartments 🏠
+  ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/homepage_acwnhn.png)
 
 - Finally : Choose one apratment to see the informations/Pictures/Google map/Reviews 🔍
-![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541862/Flimsy%20AirBnB/infos_av4qrr.png)
+  ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541862/Flimsy%20AirBnB/infos_av4qrr.png)
+
 
 ## Status
 
