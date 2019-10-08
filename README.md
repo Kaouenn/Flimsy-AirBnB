@@ -12,8 +12,7 @@
 - [Setup](#setup)
 - [Features](#features)
 - [Status](#status)
-- [Inspiration](#inspiration)
-- [Contact](#contact)
+
 
 ## General info
 
@@ -45,7 +44,7 @@ Run on ios / android device
 * Secondly : Map the "AirBnB API" to display the apartments 🏠
   ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541861/Flimsy%20AirBnB/homepage_acwnhn.png)
 
-- Finally : Choose one apratment to see the informations/Pictures/Google map/Reviews 🔍
+- Finally : Choose one apartment to see the informations/Pictures/Google map/Reviews 🔍
   ![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570541862/Flimsy%20AirBnB/infos_av4qrr.png)
 
 
