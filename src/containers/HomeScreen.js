@@ -1,12 +1,10 @@
 import React from "react";
 import axios from "axios";
 import {
-  SafeAreaView,
   StyleSheet,
   ScrollView,
   View,
   Text,
-  Button,
   Image,
   FlatList
 } from "react-native";
@@ -57,10 +55,21 @@ class HomeScreen extends React.Component {
                         id: obj.item._id
                       })
                     }
-                    style={{ flex: 1, padding: 20 }}
+                    style={{
+                      flex: 1,
+                      padding: 15
+                    }}
                   >
                     <Image
-                      style={{ width: 335, height: 220 }}
+                      style={{
+                        width: 345,
+                        height: 220,
+                        borderRadius: 3,
+                        shadowColor: "#000",
+                        shadowOffset: { width: 0, height: 2 },
+                        shadowOpacity: 0.8,
+                        shadowRadius: 2
+                      }}
                       source={{ uri: obj.item.photos[0] }}
                     />
                     <View style={styles.price}>
@@ -70,7 +79,10 @@ class HomeScreen extends React.Component {
                       style={{
                         flexDirection: "row",
                         justifyContent: "space-between",
-                        padding: 10
+                        paddingRigt: 5,
+                        marginTop: 5,
+                        boxSizing: "content-box",
+                        width: "100%"
                       }}
                     >
                       <View>
@@ -80,6 +92,7 @@ class HomeScreen extends React.Component {
                             flexDirection: "row",
                             alignItems: "center",
                             justifyContent: "flex-start",
+
                             marginTop: 5
                           }}
                         >
@@ -87,7 +100,7 @@ class HomeScreen extends React.Component {
                             style={{
                               width: "30%",
                               height: "80%",
-                              marginLeft: -15
+                              marginLeft: -10
                             }}
                             source={require("./5stars.png")}
                           />
@@ -125,7 +138,24 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginTop: -50
   },
-  title: { fontSize: 18, fontWeight: "400", marginTop: 3 }
+  title: {
+    fontSize: 16.5,
+    fontWeight: "400",
+    marginTop: 3,
+    maxWidth: 285
+  }
 });
+
+const shadowStyle = {
+  width: 100,
+  height: 100,
+  color: "#000",
+  border: 2,
+  radius: 3,
+  opacity: 0.2,
+  x: 0,
+  y: 3,
+  style: { marginVertical: 5 }
+};
 
 export default HomeScreen;
