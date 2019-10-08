@@ -31,7 +31,9 @@ Project done during training to learn about some basic React Native concepts ...
 ## Setup
 
 Clone the repository then install the dependencies using `npm install`.
+
 Use `npm start`to launch Expo on your browser.
+
 Run on ios / android device
 
 ## Features
