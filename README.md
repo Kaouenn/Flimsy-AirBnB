@@ -43,7 +43,7 @@ https://budget-web-app.herokuapp.com/
 - Secondly : Inform the expense you want to add ⌨︎
 - Finally : Inform the expense's price ﹩
 
-![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570536414/Flimsy%20AirBnB/pic2_o7bora.jpg)
+![Popup-menu](https://res.cloudinary.com/dnhwttpnq/image/upload/v1570536859/Flimsy%20AirBnB/pic2_bis_bnn9es.png)
 
 - Three Components appears when you add the first expense, you can integrate more than one pers in your form 👍
 
